@@ -1,0 +1,9 @@
+web3
+eth-account
+cryptography
+pandas
+numpy
+faker
+matplotlib
+scipy
+pycryptodome

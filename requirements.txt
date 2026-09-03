@@ -7,3 +7,4 @@ faker
 matplotlib
 scipy
 pycryptodome
+rfc8785

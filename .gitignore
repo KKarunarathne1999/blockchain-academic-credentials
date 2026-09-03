@@ -85,3 +85,8 @@ results/generated/
 
 # Generated credential research workloads
 data/generated/
+
+# ============================================
+# Cryptographic key material
+# ============================================
+keys/

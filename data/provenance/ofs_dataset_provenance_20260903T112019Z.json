@@ -1,0 +1,157 @@
+{
+  "research_project": "Privacy-Preserving Blockchain Framework for Decentralized Academic Credential Verification",
+  "source": {
+    "organisation": "Office for Students",
+    "dataset": "Size and shape of provision data dashboard",
+    "source_page": "https://www.officeforstudents.org.uk/data-and-analysis/size-and-shape-of-provision-data-dashboard/get-the-data/",
+    "retrieved_at_utc": "2026-09-03T11:20:19.542358+00:00"
+  },
+  "original_download": {
+    "file_name": "size_shape_provision_by_lead_provider_all.zip",
+    "size_bytes": 7596617,
+    "size_mb": 7.2447,
+    "sha256": "aec6bd8e98e91c4388a47f7799032e8f0cb66d2c4a1051012d2c207ec3c387bc"
+  },
+  "extracted_csv_files": [
+    {
+      "file_name": "._Partnerships_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/__MACOSX/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/._Partnerships_all_providers_2026_1.csv",
+      "size_bytes": 212,
+      "size_mb": 0.0002,
+      "sha256": "e848e5225cae297ed19831591437f4d5f6e290c7c388cc01abd4d4d52f4e020b",
+      "readable": true,
+      "column_count": 1,
+      "columns": [
+        "Unnamed: 0"
+      ],
+      "sample_rows": 0,
+      "encoding": "utf-8",
+      "error": null
+    },
+    {
+      "file_name": "._Size_and_shape_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/__MACOSX/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/._Size_and_shape_all_providers_2026_1.csv",
+      "size_bytes": 212,
+      "size_mb": 0.0002,
+      "sha256": "e848e5225cae297ed19831591437f4d5f6e290c7c388cc01abd4d4d52f4e020b",
+      "readable": true,
+      "column_count": 1,
+      "columns": [
+        "Unnamed: 0"
+      ],
+      "sample_rows": 0,
+      "encoding": "utf-8",
+      "error": null
+    },
+    {
+      "file_name": "._Student_numbers_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/__MACOSX/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/._Student_numbers_all_providers_2026_1.csv",
+      "size_bytes": 212,
+      "size_mb": 0.0002,
+      "sha256": "e848e5225cae297ed19831591437f4d5f6e290c7c388cc01abd4d4d52f4e020b",
+      "readable": true,
+      "column_count": 1,
+      "columns": [
+        "Unnamed: 0"
+      ],
+      "sample_rows": 0,
+      "encoding": "utf-8",
+      "error": null
+    },
+    {
+      "file_name": "Partnerships_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/Partnerships_all_providers_2026_1.csv",
+      "size_bytes": 3169468,
+      "size_mb": 3.0226,
+      "sha256": "a209584e192f8426164366b3d88c1c97adf662df44a3ce23d1d6ff00dcc61af0",
+      "readable": true,
+      "column_count": 15,
+      "columns": [
+        "UKPRN",
+        "COHORT",
+        "TYPE_PARTNERSHIP",
+        "MODE",
+        "LEVEL",
+        "COUNT_2021_22",
+        "COUNT_2022_23",
+        "COUNT_2023_24",
+        "COUNT_2024_25",
+        "COUNT_ALL_YEARS",
+        "PERCENT_2021_22",
+        "PERCENT_2022_23",
+        "PERCENT_2023_24",
+        "PERCENT_2024_25",
+        "PERCENT_ALL_YEARS"
+      ],
+      "sample_rows": 5,
+      "encoding": "utf-8",
+      "error": null
+    },
+    {
+      "file_name": "Size_and_shape_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/Size_and_shape_all_providers_2026_1.csv",
+      "size_bytes": 77302693,
+      "size_mb": 73.7216,
+      "sha256": "be32989550197ab2b72d4565034cf3a13a325c1577edba25cf800ed5e3607d23",
+      "readable": true,
+      "column_count": 23,
+      "columns": [
+        "UKPRN",
+        "BASE_YEAR",
+        "COHORT",
+        "CHARACTERISTIC",
+        "ATTRIBUTE",
+        "FT_UG_COUNT",
+        "FT_UG_PERCENT",
+        "FT_UG_KNOWN_PERCENT",
+        "PT_UG_COUNT",
+        "PT_UG_PERCENT",
+        "PT_UG_KNOWN_PERCENT",
+        "APPR_UG_COUNT",
+        "APPR_UG_PERCENT",
+        "APPR_UG_KNOWN_PERCENT",
+        "FT_PG_COUNT",
+        "FT_PG_PERCENT",
+        "FT_PG_KNOWN_PERCENT",
+        "PT_PG_COUNT",
+        "PT_PG_PERCENT",
+        "PT_PG_KNOWN_PERCENT",
+        "APPR_PG_COUNT",
+        "APPR_PG_PERCENT",
+        "APPR_PG_KNOWN_PERCENT"
+      ],
+      "sample_rows": 5,
+      "encoding": "utf-8",
+      "error": null
+    },
+    {
+      "file_name": "Student_numbers_all_providers_2026_1.csv",
+      "relative_path": "data/raw/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/size_shape_provision_by_lead_provider_all/Data/Student_numbers_all_providers_2026_1.csv",
+      "size_bytes": 2170847,
+      "size_mb": 2.0703,
+      "sha256": "402ea9b1ebddd54b3dfc6749af2cc9969f9a967bbf6874f9ce50e8155bace78e",
+      "readable": true,
+      "column_count": 14,
+      "columns": [
+        "UKPRN",
+        "COHORT",
+        "TYPE_OF_PROVISION",
+        "LEVEL_OF_STUDY",
+        "COUNT_2021_22",
+        "PERCENT_2021_22",
+        "COUNT_2022_23",
+        "PERCENT_2022_23",
+        "COUNT_2023_24",
+        "PERCENT_2023_24",
+        "COUNT_2024_25",
+        "PERCENT_2024_25",
+        "COUNT_ALL_YEARS",
+        "PERCENT_ALL_YEARS"
+      ],
+      "sample_rows": 5,
+      "encoding": "utf-8",
+      "error": null
+    }
+  ],
+  "methodology_note": "The OfS dataset provides public aggregated higher-education information. Individual student credential records used later in this research are generated synthetically and must not be represented as genuine student records."
+}

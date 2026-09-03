@@ -45,41 +45,40 @@ blockchain/artifacts/
 blockchain/cache/
 blockchain/typechain-types/
 blockchain/coverage/
-
-# Local blockchain deployment/runtime data
 blockchain/ignition/deployments/
 
 # ============================================
-# Generated research data
+# Raw / processed research data
 # ============================================
-data/*.csv
-data/*.json
+data/raw/
+data/processed/
 
 # ============================================
 # Generated credentials
 # ============================================
-credentials/*.json
+credentials/
 
 # ============================================
-# Generated experiment outputs
+# Large generated experiment outputs
 # ============================================
-results/*.csv
-results/*.json
+results/raw/
+results/generated/
 
 # ============================================
-# Python model / binary files
+# Python binaries / models
 # ============================================
 *.joblib
 *.pkl
 *.pickle
 
 # ============================================
-# Logs
+# Archives
 # ============================================
-*.log
+*.zip
 
 # ============================================
-# Temporary files
+# Logs / temporary files
 # ============================================
+*.log
 *.tmp
 *.temp

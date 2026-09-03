@@ -82,3 +82,6 @@ results/generated/
 *.log
 *.tmp
 *.temp
+
+# Generated credential research workloads
+data/generated/

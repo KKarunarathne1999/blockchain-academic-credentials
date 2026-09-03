@@ -90,3 +90,5 @@ data/generated/
 # Cryptographic key material
 # ============================================
 keys/
+# Hardhat generated TypeScript bindings
+blockchain/types/

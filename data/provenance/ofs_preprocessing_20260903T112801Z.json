@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-09-03T11:28:01.060629+00:00",
+  "sources": {
+    "student_numbers": {
+      "filename": "Student_numbers_all_providers_2026_1.csv",
+      "sha256": "402ea9b1ebddd54b3dfc6749af2cc9969f9a967bbf6874f9ce50e8155bace78e"
+    },
+    "size_and_shape": {
+      "filename": "Size_and_shape_all_providers_2026_1.csv",
+      "sha256": "be32989550197ab2b72d4565034cf3a13a325c1577edba25cf800ed5e3607d23"
+    }
+  },
+  "transformations": [
+    "Ignored __MACOSX metadata files.",
+    "Converted OfS suppression markers to missing values.",
+    "Converted count and percentage columns to numeric types.",
+    "Removed rows without valid UKPRNs.",
+    "Removed duplicate rows.",
+    "Derived provider workload weighting from All students / Full-time / Full-time (total)."
+  ],
+  "summary": {
+    "student_numbers_rows": 21598,
+    "student_numbers_providers": 419,
+    "provider_workload_rows": 411,
+    "size_shape_rows": 446668,
+    "size_shape_providers": 419,
+    "base_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "characteristics": [
+      "ABCS completion",
+      "ABCS continuation",
+      "ABCS progression",
+      "Age on entry - PG",
+      "Age on entry - UG",
+      "Course length",
+      "Course type",
+      "Deprivation quintile (IMD)",
+      "Disability type",
+      "Domicile",
+      "Eligibility for free school meals",
+      "Entry qualifications",
+      "Ethnicity",
+      "Geography of employment quintile",
+      "OfS funding status",
+      "Sex",
+      "Sexual orientation",
+      "Socio-economic background",
+      "Study location",
+      "Subject of study (detailed)",
+      "TUNDRA (MSOA)",
+      "Year of study type"
+    ]
+  },
+  "outputs": {
+    "student_numbers": "data/processed/ofs_student_numbers_clean.csv",
+    "provider_workload": "data/processed/ofs_provider_workload.csv",
+    "size_shape": "data/processed/ofs_size_shape_clean.csv"
+  },
+  "research_note": "Provider workload counts are public aggregated statistics used only as weighting information for synthetic credential generation. They must not be interpreted as actual numbers of credentials issued."
+}
